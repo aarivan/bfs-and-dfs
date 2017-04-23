@@ -1,0 +1,123 @@
+abhi@abhi-VirtualBox:~/Desktop/Assignment$ javac -Xlint:deprecation Search_Romania.java
+abhi@abhi-VirtualBox:~/Desktop/Assignment$ java Search_Romania dfs lugoj bucharest
+Length of the list:8
+
+The traversed path from lugoj to bucharest
+lugoj
+mehadia
+dobreta
+craiova
+rimnicu_vilcea
+sibiu
+fagaras
+bucharest
+Total number of nodes expanded:12
+
+
+Nodes expanded:
+
+lugoj
+mehadia
+dobreta
+craiova
+rimnicu_vilcea
+sibiu
+arad
+timisoara
+zerind
+oradea
+fagaras
+bucharest
+
+abhi@abhi-VirtualBox:~/Desktop/Assignment$ javac -Xlint:deprecation Search_Romania.java
+abhi@abhi-VirtualBox:~/Desktop/Assignment$ java Search_Romania bfs lugoj bucharest
+Length of the list is : 6
+
+The traversed path from lugoj to bucharest
+lugoj
+mehadia
+dobreta
+craiova
+pitesti
+bucharest
+Total number of nodes expanded:13
+
+
+Nodes expanded:
+
+lugoj
+mehadia
+timisoara
+dobreta
+arad
+craiova
+zerind
+sibiu
+rimnicu_vilcea
+pitesti
+oradea
+fagaras
+bucharest
+
+abhi@abhi-VirtualBox:~/Desktop/Assignment$ javac -Xlint:deprecation Search_Romania.java
+abhi@abhi-VirtualBox:~/Desktop/Assignment$ java Search_Romania dfs bucharest lugoj
+Length of the list:7
+
+The traversed path from bucharest to lugoj
+bucharest
+pitesti
+rimnicu_vilcea
+craiova
+dobreta
+mehadia
+lugoj
+Total number of nodes expanded:7
+
+
+Nodes expanded:
+
+bucharest
+pitesti
+rimnicu_vilcea
+craiova
+dobreta
+mehadia
+lugoj
+
+
+abhi@abhi-VirtualBox:~/Desktop/Assignment$ javac -Xlint:deprecation Search_Romania.java
+abhi@abhi-VirtualBox:~/Desktop/Assignment$ java Search_Romania bfs bucharest lugoj
+Length of the list is : 6
+
+The traversed path from bucharest to lugoj
+bucharest
+pitesti
+craiova
+dobreta
+mehadia
+lugoj
+Total number of nodes expanded:20
+
+
+Nodes expanded:
+
+bucharest
+pitesti
+giurgiu
+fagaras
+urziceni
+rimnicu_vilcea
+craiova
+sibiu
+hirsova
+vaslui
+dobreta
+arad
+oradea
+eforie
+iasi
+mehadia
+timisoara
+zerind
+neamt
+lugoj
